@@ -20,6 +20,8 @@
 
 <body>
 
+ 
+
     <!--......................... navigation bar ................... -->
 
 
@@ -54,6 +56,16 @@
             </div>
         </div>
     </nav>
+
+    <!-- ...........slogan................. -->
+
+
+    <div class="content">
+      <!-- <h6 class="text">आपली मराठी माती त्यावर घर बांधणारी आपलीच माणसं</h6> -->
+      <!-- <a href="./src/index.html">More...</a> -->
+
+      <div class="animated-text"><b>आपली मराठी माती त्यावर घर बांधणारी आपलीच माणसं</b></div>
+      </div>
 
 
      <!-- ..............projects -->
@@ -118,8 +130,11 @@
 
     <!-- ............frequently asked questions............... -->
 
-    <div class="accordion" id="accordionExample"  >
-        <div class="accordion-item">
+
+    <h2 style="margin-top: 50px; align-items: center; justify-content: center; display: flex;"><b> Frequently Asked Questions</b></h2>
+
+    <div class="accordion" style="margin-top: 40px;" id="accordionExample"  >
+        <div class="accordion-item" style="background-color: yellowgreen;">
           <h2 class="accordion-header">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
               Accordion Item #1
@@ -198,94 +213,13 @@
         </div>
       </div>
 
-      <!-- ...................FAQ..................... -->
-
-
-<div class="faq">
-  <h2>Frequently Asked Questions</h2><hr>
-  <ul class="accordion">
-     <li>
-         <input type="radio" name="accordion" id="first">
-         <label for="first"><b> What kind of construction do you specialize in?</b></label>
-         <div class="content">
-             <p>Rachnakar construction is a professionally managed Group engaged in imparting great services in the domain of residential and commercial constructions 
-          </p>
-         </div>
-     </li>
-     <li>
-         <input type="radio" name="accordion" id="second">
-         <label for="second"><b> Do you have your own crew or do you hire subcontractors?</b></label>
-         <div class="content">
-             <p>Rachnakar constuction hire well wenderors and contractors who have great management skills
-
-
-             </p>
-         </div>
-     </li>
-     <li>
-         <input type="radio" name="accordion" id="third">
-         <label for="third"><b>Do you provide the services of an Architecture?</b></label>
-         <div class="content">
-             <p>Yes we provide all engineering and architecture service.
-
-          </p>
-         </div>
-     </li>
-     <li>
-         <input type="radio" name="accordion" id="four">
-         <label for="four"><b>How long do you normally take to complete the construction of a house?</b></label>
-         <div class="content">
-             <p>It depends upon site location and storage area. Generally we complete single floor storey in three to four months.
-          </p>
-         </div>
-     </li>
-     <li>
-         <input type="radio" name="accordion" id="fifth">
-         <label for="fifth"><b>What is your service area?</b></label>
-         <div class="content">
-             <p>we provide our services in all Maharashtra.</p>
-         </div>
-     </li>
-     <li>
-         <input type="radio" name="accordion" id="sixth">
-         <label for="sixth"><b>How do you charge for projects? By the hour, job, etc.?</b>
-      </label>
-         <div class="content">
-             <p>Our Charges Depend on working. Must visit once when you have any work regarding construction. We wil discuss.
-          </p>
-         </div>
-     </li>
-  </ul>
-  
- </form>
-
-</div>
-
-
+     
 
       <footer>
-        <p>&copy; 2023 Your Website. All rights reserved.</p>
+        <p>&copy; 2023 Rachnakar Construction. All rights reserved.</p>
     </footer>
 
 
-
-<!-- .............accordin script.................. -->
-    <script>
-      const allLabels = document.querySelectorAll('.accordion label');
-      allLabels.forEach(lable => {
-          lable.addEventListener('click', (event) => {
-              const previousElement = document.querySelector('.content.active');
-              const currentElement = event.target.nextElementSibling
-  
-              if(previousElement !== currentElement){
-                  if(previousElement){
-                      previousElement.classList.remove('active')
-                  }
-              }
-              event.target.nextElementSibling.classList.toggle('active');
-          })
-      })
-  </script>
 
 
     <!-- bootstrap link  -->
