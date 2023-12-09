@@ -25,7 +25,7 @@ body {
     border-radius: 2px;
     margin: 50px 0;
     padding: 20px;
-    background-color: rgb(77, 213, 218);
+    background-color: rgb(148, 151, 151);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -57,11 +57,11 @@ body {
     padding: 0;
 }
 
-h1 {
+/* h1 {
     text-shadow: 5px 5px 10px gray;
     font-size: 45px;
     margin-top: 80px;
-}
+} */
 
 footer {
     background-color: #333;
@@ -71,4 +71,11 @@ footer {
     /* position: fixed; */
     bottom: 0;
     width: 100%;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
 }
