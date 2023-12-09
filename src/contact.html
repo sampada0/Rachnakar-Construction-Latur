@@ -12,6 +12,8 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- favicon  -->
     <link rel="icon" type="image/x-icon" href="../assets/logo.jpg">
+    <!-- link css  -->
+    <link rel="stylesheet" href="./contact.css">
 
     <style>
         footer {
@@ -76,14 +78,17 @@
 
 
     <!-- ..........contact us................ -->
+
+
     <h2 style="align-items: center; justify-content: center; display: flex; margin-top: 50px;">Contact Us</h2>
 
     <h5 style="align-items: center; justify-content: center; display: flex;margin-top: 40px;">We would love to respond
         to your queries and help you succeed.
         Feel free to get in touch with us.</h5>
-    <div class="container mt-5 bg-danger">
+    <div class="container mt-5">
 
         <form>
+            <div class="contact-main">
             <div class="form-group">
                 <label for="name">Name:</label>
                 <input type="text" class="form-control" id="name" placeholder="Enter your name">
@@ -96,7 +101,8 @@
                 <label for="message">Message:</label>
                 <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" id="btn">Submit</button>
+        </div>
         </form>
     </div>
 

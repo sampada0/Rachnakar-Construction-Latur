@@ -1,8 +1,8 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-  
+
 }
 
 
@@ -11,6 +11,8 @@ body {
     background-color: white;
     margin: 0;
     padding: 0;
+    background-color: rgb(210, 204, 204);
+
 }
 
 .container {
@@ -20,9 +22,10 @@ body {
 }
 
 .testimonial {
+    border-radius: 2px;
     margin: 50px 0;
     padding: 20px;
-    background-color: rgb(239, 215, 219);
+    background-color: rgb(77, 213, 218);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -33,6 +36,7 @@ body {
     border-radius: 50%;
     margin: 0 20px 20px 0;
     vertical-align: middle;
+    border: 2px solid navy;
 }
 
 .testimonial h2 {
@@ -42,13 +46,13 @@ body {
     margin: 0;
     padding: 0;
     align-items: flex-end;
-    color: #666;
+    color: black;
 }
 
 .testimonial p {
     font-size: 18px;
     line-height: 1.5;
-    color: #666;
+    color: rgb(66, 52, 52);
     margin: 0;
     padding: 0;
 }
