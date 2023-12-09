@@ -26,7 +26,7 @@ button {
     background-color: navy;
     color: white;
     padding: 5px;
-    width: 100px;
+    /* width: 100px; */
     border: none;
     border-radius: 2px;
 }
