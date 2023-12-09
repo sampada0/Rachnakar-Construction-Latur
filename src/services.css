@@ -8,11 +8,21 @@ footer {
     width: 100%;
 }
 /* services */
-#txt{
+.container{
+    margin-bottom: 30px;
+}
+.main{
+    /* padding: 40px; */
+    margin: 30px;
     justify-content: center;
-    align-items: center;
-    /* display: flex; */
-    margin-top: 100px;
-    padding-left: 30px;
-    padding-right: 30px;
+    display: flex;
+    gap: 70px;
+    /* width: 100vw; */
+}
+.main2{
+    /* margin: auto; */
+    justify-content: center;
+    display: flex;
+    gap: 70px;
+
 }
