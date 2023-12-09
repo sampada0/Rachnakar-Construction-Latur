@@ -7,3 +7,12 @@ footer {
     bottom: 0;
     width: 100%;
 }
+/* services */
+#txt{
+    justify-content: center;
+    align-items: center;
+    /* display: flex; */
+    margin-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
