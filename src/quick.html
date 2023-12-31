@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Construction Company Footer</title>
+     <!-- font awesome  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -60,6 +63,38 @@
         .sub-links a:hover {
             text-decoration: underline;
         }
+
+        .social-icons{
+            display: flex;
+            text-decoration: none;
+            justify-content:center;
+            
+        }
+        .social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.social-icons li {
+    margin: 0 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+    color: #55acee; 
+}
+
+
     </style>
 </head>
 <body>
@@ -67,14 +102,13 @@
     <!-- Your website content goes here -->
 
     <footer>
-        <h3>Quick Links</h3>
-        <!-- <ul class="footer-links">
+        <ul class="footer-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About Us</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
-        </ul> -->
+        </ul>
 
         <div class="sub-links">
             <a href="#safety">Safety</a>
@@ -82,6 +116,7 @@
             <a href="#testimonials">Testimonials</a>
             <a href="#blog">Blog</a>
         </div>
+
         <ul class="social-icons">
 
             <li><a href="#" target="_blank" title="Twitter"> <i class="fa fa-instagram" aria-hidden="true"></i></a></li>
@@ -90,6 +125,7 @@
             </li>
       
           </ul>
+         
 
         <p>&copy; 2023 Your Construction Company Name</p>
     </footer>
