@@ -14,6 +14,11 @@ body {
     background-color: rgb(210, 204, 204);
 
 }
+#nav{
+    position: sticky;
+    top: 0;
+}
+
 
 .container {
     max-width: 800px;
