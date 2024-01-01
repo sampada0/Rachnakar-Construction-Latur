@@ -61,7 +61,7 @@ footer {
     display: flex;
     background-color:gray;
     
-    background: linear-gradient(to bottom,rgb(5, 80, 117),rgb(75, 182, 244));
+    /* background: linear-gradient(to bottom,rgb(5, 80, 117),rgb(75, 182, 244)); */
     
     
     font-size: 30px;
