@@ -71,6 +71,32 @@ footer {
     width: 100%;
     animation: textAnimation 2s;
   }
+  /* services */
+  .choose-us-section {
+    padding: 50px 0;
+    background-color: #343a40;
+    color: #ffffff;
+  }
+
+  .feature-item {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .feature-icon {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+
+  h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
   /* carousel */
  #carouselExampleInterval{
     margin-top: 190px;
