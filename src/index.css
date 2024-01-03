@@ -61,6 +61,7 @@ footer {
     align-items: center;
     display: flex;
     background-color:gray;
+    opacity: 1;
     
     /* background: linear-gradient(to bottom,rgb(5, 80, 117),rgb(75, 182, 244)); */
     
