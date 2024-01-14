@@ -7,8 +7,10 @@
     
 }
 #nav{
-  position: sticky;
+  /* position:fixed; */
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 10;
 }
 
@@ -197,6 +199,19 @@ color: #55acee;
 
 
 /* faq */
+/* image */
+#bgImg {
+  background-image: url('path/to/your/image.jpg'); /* Replace with the path to your actual image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Set an initial height, adjust as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff; /* Set text color as needed */
+}
+
 
 
 
