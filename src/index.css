@@ -6,6 +6,7 @@
     height: 550px;
     
 }
+
 #nav{
   /* position:fixed; */
   top: 0;
@@ -102,9 +103,6 @@ footer {
   }
 
   /* carousel */
- #carouselExampleInterval{
-    margin-top: 190px;
-  }
 
   /* footer  */
   body {
@@ -204,13 +202,81 @@ color: #55acee;
   background-image: url('path/to/your/image.jpg'); /* Replace with the path to your actual image */
   background-size: cover;
   background-position: center;
-  height: 100vh; /* Set an initial height, adjust as needed */
+  height: 90vh; /* Set an initial height, adjust as needed */
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   color: #fff; /* Set text color as needed */
 }
+
+#arrow {
+  /* align-items: right;
+  justify-content: right;
+  display: flex;
+   */
+  color: white;
+  font-size: 40px;
+  position: relative;
+  right: -500px;
+}
+
+#arr {
+  text-decoration: none;
+  width: 30px;
+
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  /* Text color */
+  font-size: 30px;
+  /* Adjust font size as needed */
+  font-weight: bold;
+  /* Adjust font weight as needed */
+}
+
+#bgImg {
+  background-image: url('../assets/vecteezy_interior-of-a-modern-living-room-in-3d-rendering_2070141.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* width: 100%; */
+  height: 450px;
+  /* min-height: 250px; */
+  display: flex;
+  position: relative;
+}
+@media (max-width: 600px) {
+  bgImg {
+    max-width: 100%; /* Limit the maximum width on smaller screens */
+  }
+}
+
+#bgImg h3 {
+  /* font-size: 50px; */
+  color: black;
+  margin-top: 4%;
+  margin-left: 25%;
+  line-height: 45px;
+  text-align: center;
+  text-shadow: 5px 5px 10px black;
+}
+
+h3 span {
+  /* color: rgb(48, 186, 240); */
+  color: navy;
+}
+
+
+
+
+
 
 
 

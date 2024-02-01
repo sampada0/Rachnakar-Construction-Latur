@@ -129,5 +129,21 @@ footer {
   .social-icons a:hover {
   color: #55acee; 
   }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+
+    iframe {
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+}
   
   
