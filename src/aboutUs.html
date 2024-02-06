@@ -26,13 +26,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body style="background-color:rgb(210, 204, 204);">
+<body>
     <!--......................... navigation bar ................... -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary " id="nav">
         <div class="container-fluid ">
             <a class="navbar-brand" href="#"><img src="../assets/images/logo1.png" target="_blank" rel="noreferrer"
                     width="90px" alt="Logo"></a>
-            <a class="navbar-brand" href="/index.html" target="_blank" rel="noreferrer">Home</a>
+            <a class="navbar-brand" href="/index.html" target="_self" rel="noreferrer">Home</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -45,16 +45,16 @@
                             rel="noreferrer">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./projects.html" target="_blank" rel="noreferrer">Project</a>
+                        <a class="nav-link" href="./projects.html" target="_self" rel="noreferrer">Project</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="./aboutUs.html" target="_blank" rel="noreferrer">About Us</a>
+                        <a class="nav-link active" href="./aboutUs.html" target="_self" rel="noreferrer">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./contact.html" target="_blank" rel="noreferrer">Contact</a>
+                        <a class="nav-link" href="./contact.html" target="_self" rel="noreferrer">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./testimonials.html" target="_blank" rel="noreferrer">Testimonials</a>
+                        <a class="nav-link" href="./testimonials.html" target="_self" rel="noreferrer">Testimonials</a>
                     </li>
 
                 </ul>
@@ -66,10 +66,10 @@
         <h1>About Us</h1>
     </header>
 
-    <img src="../assets/images/aboutus.jpg"
-        style="width: 100%; height: 400px;" class="img-fluid" alt="aboutus image">
+    <img id="imgAbout" src="../assets/images/aboutus.jpg"
+    class="img-fluid" alt="aboutus image">
 
-    <h2 class="text-lg">
+    <h2 class="texself>
         Perfection is Always in Our Mind</h2>
 
     <section>
@@ -122,8 +122,8 @@
     </section>
     <!-- ......................footer ............. -->
     <footer>
-        <h5 style="margin-bottom: 20px;"><b>Quick links</b></h5>
-        <hr style="color: white;">
+        <h5 id="quick"><b>Quick links</b></h5>
+        <hr>
         <ul class="footer-links">
             <li><a href="/index.html" target="_blank" rel="noreferrer">Home</a></li>
             <li><a href="./services.html" target="_blank" rel="noreferrer">Services</a></li>
