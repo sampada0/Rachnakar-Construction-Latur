@@ -1,0 +1,2 @@
+RewriteCond %{HTTP_HOST} ^www\rachnakar-construction-latur\.com$
+RewriteRule ^/?$ "http\:\/\/rachnakar-construction-latur\.com\/" [R=301,L]
