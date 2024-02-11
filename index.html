@@ -29,6 +29,10 @@
   <!-- add sense -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2026626458872217"
      crossorigin="anonymous"></script>
+     <!-- theme color -->
+     <meta name="theme-color" content="#317EFB"/>
+     <!-- /canolicalization of url -->
+     <link rel="canonical" href="https://rachnakar-construction-latur.netlify.app/">
 
 </head>
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -302,7 +306,19 @@
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
 
+ <!-- contact form script -->
 
+ <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbywkFEGVAL0Y08ueaqAFrEaDiKp1UPrHB1aEH505gCVHByrXK43K_oQnx3iA5HjQRsDDw/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
 </body>
 
 </html>
