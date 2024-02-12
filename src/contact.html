@@ -201,6 +201,19 @@ crossorigin="anonymous"></script>
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
 
+
+	<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzxGhT5RlzrzrwjVPxxhe2UPdFPu1QybR3BaPR07wMW-VOo8c9MP0aKbX4J_TnhFbdiYQ/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
       
 </body>
 
