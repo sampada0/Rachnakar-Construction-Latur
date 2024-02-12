@@ -31,6 +31,8 @@
 crossorigin="anonymous"></script>
  <!-- theme color -->
  <meta name="theme-color" content="#317EFB"/>
+ <!-- js file -->
+ <link rel="stylesheet" href="../assets/javascript/contact.js">
 
 </head>
 <!-- Google tag (gtag.js) -->
@@ -92,32 +94,33 @@ crossorigin="anonymous"></script>
     <h2 class="text-lg">"Connect with Rachanakar Construction,Latur for Your Construction Needs"</h2>
     <div class="container mt-5">
 
-        <form>
+        <form name="submit-to-google-sheet">
             <div class="contact-main">
                 <div class="form-group">
                     <label for="name">Name:</label>
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Enter your name" required>
+                    <input type="text" name="Name" class="form-control" id="name" placeholder="Enter your name" required>
                 </div>
                 <div class="form-group">
                     <label for="mobile">Mobile No:</label>
-                    <input type="number" name="mobile" class="form-control" id="mobile" placeholder="Enter your mobile no" pattern="[0-9]{10}" required>
+                    <input type="number" name="Mobile" class="form-control" id="mobile" placeholder="Enter your mobile no" pattern="[0-9]{10}" required>
                 </div>
                 <div class="form-group">
                     <label for="email">Email:</label>
-                    <input type="email" name="email" class="form-control" id="email" placeholder="Enter your email" required>
+                    <input type="email" name="Email" class="form-control" id="email" placeholder="Enter your email" required>
                 </div>
                 <div class="form-group">
                     <label for="message">Message:</label>
-                    <textarea class="form-control" name="message" id="message" rows="4" placeholder="Enter your message" required></textarea>
+                    <textarea class="form-control" name="Message" id="message" rows="4" placeholder="Enter your message" required></textarea>
                 </div>
 
+            </div>
+            <div class="btn">
+                <button type="submit">Submit</button>
             </div>
         </form>
 
     </div>
-    <div class="btn">
-        <button type="submit">Submit</button>
-    </div>
+    
     <!-- iframe example -->
     <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3785.8898188494645!2d76.56316610932477!3d18.397865072841505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcf83bd8fed6a53%3A0xae962172a3f74ab!2zUmFjaG5ha2FyIENvbnN0cnVjdGlvbiAo4KSw4KSa4KSo4KS-4KSV4KS-4KSwIOCkleCkqOCljeCkuOCljeCkn-CljeCksOCkleCljeCktuCkqCk!5e0!3m2!1sen!2sin!4v1691659099602!5m2!1sen!2sin"
@@ -198,8 +201,7 @@ crossorigin="anonymous"></script>
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
 
-       
-
+      
 </body>
 
 </html>
