@@ -35,7 +35,7 @@
   <link rel="canonical" href="https://rachnakar.co.in/">
   <!-- meta tag -->
   <meta name="google-site-verification" content="5QMT8pJNxQGME5UOky7MFhqOfM_zMXZx11ZbsmZt9qo" />
- 
+
 </head>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-7WGL5WYPMS"></script>
@@ -166,13 +166,11 @@
   <div class="image img-fluid" style="display: flex;">
 
     <div class="text" style="border: 1px solid white;background: linear-gradient(#55acee,white); ">
-      <h6 id="home" style="position: relative; top: 288px;  font-size: 50px;">"Where Dreams Find Their Address: <br>
+      <h6 id="home" style="position: relative; top: 280px;  font-size: 50px;">"Where Dreams Find Their Address: <br>
         Welcome Home"
       </h6>
     </div>
-    <div class="img"> <img
-        src="/assets/images/3d.avif"
-        alt="home-image">
+    <div class="img"> <img src="/assets/images/3d.avif" alt="home-image">
     </div>
   </div>
   <!-- ............frequently asked questions............... -->
@@ -319,19 +317,19 @@ comparisonSlider.oninput=()=>{
 };
   </script> -->
   <script>
-    document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", function () {
       const comparisonSlider = document.querySelector(".comparison-slider input");
       const afterImage = document.querySelector(".image-container .image-after");
       const dragline = document.querySelector(".comparison-slider .drag-line");
-    
+
       comparisonSlider.oninput = () => {
         let sliderValue = comparisonSlider.value;
         dragline.style.left = sliderValue + "%";
         afterImage.style.width = sliderValue + "%";
       };
     });
-    </script>
-    
+  </script>
+
 
 
   <!-- bootstrap link  -->
